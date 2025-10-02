@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contacto</title>
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- CSS externo -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<h1>Contacto</h1>
+			<!-- Nav -->
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contacto">
+			<section>
+				<h2>Formulario de Contacto</h2>
+				<form action="https://formspree.io/f/mrbykqbo" method="POST">
+					<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre" id="nombre" required>
+
+					<label for="email">Correo electronico:</label>
+					<input type="email" name="email" id="email" required>
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+		</main>
+		
+		<footer>
+			<p>&copy; 2025 - Pre-Entrega de Proyecto</p>
+		</footer>
+	</body>
+</html>

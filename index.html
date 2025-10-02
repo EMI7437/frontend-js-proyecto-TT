@@ -4,40 +4,59 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Pre-Entrega de Proyecto</title>
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- CSS externo -->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
-
-		<!-- Encabezado principal -->
+		<!-- Header -->
 		<header>
-			<h1>Mi Pre-Entrega de Proyecto</h1>
+			<h1>Mi Tienda Online</h1>
+			<!-- Nav -->
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
 		</header>
-
-		<!-- Navegacion -->
-		<nav>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Sobre mí</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav>
 
 		<!-- Contenido principal -->
 		<main>
-			<section>
-				<h2>Formulario de Contacto</h2>
-				<form action="#######" method="POST">
-					<label for="nombre">Nombre:</label>
-					<input type="text" name="nombre" id="nombre" required>
+			<!-- Sección Inicio -->
+	        <section id="inicio">
+	            <h2>Bienvenidos</h2>
+	            <p>Explora nuestros productos y disfruta de la mejor calidad.</p>
+	            <!-- Ejemplo multimedia -->
+	            <img src="img/PS1.gif" alt="Intro Playstation 1" class="gif-intro">
+	        </section>
 
-					<label for="email">Correo electronico:</label>
-					<input type="email" name="email" id="email" required>
-
-					<label for="nombre">Mensaje:</label>
-					<textarea id="mensaje" name="mensaje" required></textarea>
-
-					<button type="submit">Enviar</button>
-				</form>
+	        <!-- Sección Productos -->
+	        <section id="juegos">
+			    <h2>Catálogo de Juegos PS1</h2>
+			    <div class="productos-container">
+			        <div class="card">
+			            <img src="img/Crash_Bandicoot_Cover.png" alt="Crash Bandicoot">
+			            <h3>Crash Bandicoot</h3>
+			            <p>$2.500</p>
+			            <button>Agregar al carrito</button>
+			        </div>
+			        <div class="card">
+			            <img src="img/Metal_Gear_Solid_cover_art.png" alt="Metal Gear Solid">
+			            <h3>Metal Gear Solid</h3>
+			            <p>$3.000</p>
+			            <button>Agregar al carrito</button>
+			        </div>
+			        <div class="card">
+			            <img src="img/Resident_Evil_2_cover.png" alt="Resident Evil 2">
+			            <h3>Resident Evil 2</h3>
+			            <p>$3.500</p>
+			            <button>Agregar al carrito</button>
+			        </div>
+			    </div>
 			</section>
 		</main>
 
