@@ -4,15 +4,23 @@ Tienda Retro de Juegos de PlayStation 1
 
 
 
-Este proyecto es una página web de ejemplo para una tienda online de videojuegos retro enfocada en el catálogo de la PlayStation 1.
+Proyecto web de ejemplo: una tienda online de videojuegos retro enfocada en el catálogo de PlayStation 1.
 
 
 
-* Estructura semántica en HTML5\*\* con secciones: header, nav, main, section, footer.
-* Página de contacto con formulario funcional (usando \[Formspree](https://formspree.io/)).
+---
+
+
+
+\# Características
+
+
+
+* Estructura semántica en HTML5 con secciones: header, nav, main, section, footer.
+* Página de contacto con formulario funcional usando \[Formspree](https://formspree.io/).
 * Estilos personalizados con CSS externo:
 
-&nbsp;	- Tipografías de \[Google Fonts](https://fonts.google.com/).
+ 	- Tipografías de \[Google Fonts](https://fonts.google.com/).
 
   	- Paleta de colores inspirada en el estilo retro.
 
@@ -20,12 +28,16 @@ Este proyecto es una página web de ejemplo para una tienda online de videojuego
 
  	- Diseño responsivo mediante media queries.
 
-* Contenido multimedia: imágenes de juegos y un GIF retro integrado.
-* Lista de navegación interna con enlaces simulando las secciones principales (Inicio, Productos, Contacto).
+* Contenido multimedia: imágenes de juegos y GIFs retro.
+* Navegación interna con enlaces simulando las secciones principales (Inicio, Contacto).
 
 
 
-Objetivo del proyecto
+---
+
+
+
+\# Objetivo del proyecto
 
 
 
